@@ -1,0 +1,164 @@
+
+html{
+    margin: 30px 30px;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    list-style: none;
+    display:flex;
+    font-size: larger;
+    justify-content: space-around;
+    cursor: pointer;
+    
+    
+}
+ul > :nth-child(1){
+    text-decoration: underline;
+    font-weight: 800;
+    order: 0;
+}
+
+ul > :nth-child(2){
+    order: 1 ;
+}
+ul > :nth-child(4){
+    order: 2 ;
+}
+ul > :nth-child(5){
+    order: 3 ;
+}
+
+
+.list-item{
+    font-family: Orbitron;
+    margin-right: 100px;
+    font-weight: 400;
+}
+
+.button-group{
+    display:flex;
+}
+
+.search-icon{
+    display: flex;
+    align-items: center;
+    width: 25px;
+}
+
+.nav-button{
+    background-color: transparent;
+    padding: 10px 40px;
+    font-size: large;
+    border-radius: 15px;
+    margin-left: 20px;
+    height: 40px;
+}
+
+.globe{
+    position: absolute;
+    left: 54%; 
+}
+
+.star{
+    position: absolute;
+    left: 93%;
+    top: 30%;
+}
+
+.square{
+    position: absolute;
+    top: 53%;
+    right: 59%;
+}
+
+.hero-container > :nth-child(4){
+    position: absolute;
+    top: 18%;
+    bottom: 10%;
+}
+
+.hero-heading{
+    font-family: Orbitron;
+    position: absolute;
+    font-size: 60px;
+    right: 6%;
+    top:35%
+}
+
+.hero-description{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top:50%;
+    left: 40%;
+    text-align: center;
+    padding: 20px 110px;
+    margin-right: 90px;
+    margin-left:90px ;
+}
+
+.hero-container-right > :nth-child(3){
+    position: absolute;
+    top:70%;
+    right: 20%;
+}
+
+.button-email{
+    background-color: transparent;
+    font-family: Orbitron;
+    font-size: medium;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 5px 40px;
+    cursor: pointer;
+}
+
+.button-join{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Orbitron;
+    font-size: medium;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+.contact-heading{
+    text-transform: capitalize;
+    position: absolute;
+    top: 80%;
+    right: 25%;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 23px;
+    cursor: pointer;
+}
+.icons{
+    position: absolute;
+    top: 90%;
+    right: 21%;
+}
+
+.icons > :nth-child(1){
+    margin-right: 20px;
+    cursor: pointer;
+}
+.icons > :nth-child(2){
+    margin-right: 20px;
+    cursor: pointer;
+}
+.icons > :nth-child(3){
+    margin-right: 20px;
+    cursor: pointer;
+}
+.icons > :nth-child(4){
+
+    cursor: pointer;
+}
+
