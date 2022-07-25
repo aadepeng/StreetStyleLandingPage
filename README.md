@@ -11,3 +11,5 @@
 >learnt position properties (absolute and relative)
 
 >Flexbox
+
+Note: The website is made using HTML and CSS and is not responsive.
