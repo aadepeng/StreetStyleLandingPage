@@ -1,6 +1,6 @@
 # Street Style Landing Page
 
->Live Link : [Street Style](https://google.com)
+>Live Link : [Street Style](https://streetstyle-landing-page.netlify.app/)
 
 >This site should look like this - 
 ![StreetStyle](https://raw.githubusercontent.com/aadepeng/StreetStyleLandingPage/master/Street%20Style%20Landing%20Page.png)
